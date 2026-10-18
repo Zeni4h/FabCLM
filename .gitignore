@@ -1,0 +1,17 @@
+# Build output
+build/
+bin/
+*.exe
+*.o
+*.obj
+*.pdb
+
+# Local sensitive configuration
+config/config.json
+.env
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

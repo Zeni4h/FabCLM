@@ -1,0 +1,19 @@
+{
+  "auth": {
+    "tenant_id": "00000000-0000-0000-0000-000000000000",
+    "client_id": "00000000-0000-0000-0000-000000000000",
+    "client_secret": "YOUR_ENTRA_APP_CLIENT_SECRET_OR_LEAVE_EMPTY_FOR_DEVICE_CODE",
+    "use_device_code_flow": false
+  },
+  "fabric": {
+    "capacity_id": "00000000-0000-0000-0000-000000000000",
+    "capacity_name": "myfabriccapacity"
+  },
+  "azure": {
+    "subscription_id": "00000000-0000-0000-0000-000000000000",
+    "resource_group": "my-fabric-rg"
+  },
+  "metrics_app": {
+    "dataset_id": "OPTIONAL_FUAM_DATASET_ID_FOR_PHASE_2"
+  }
+}
