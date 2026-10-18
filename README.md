@@ -2,7 +2,6 @@
 
 [![Language](https://img.shields.io/badge/Language-C%2B%2B20-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B20)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
 **FabCLM** is a lightweight, high-performance native C++20 command-line application designed to monitor Microsoft Fabric Capacity Unit (CU) consumption, health, and workload costs on-demand without burning continuous capacity or requiring the Power BI portal to be opened.
 
@@ -170,9 +169,3 @@ To run `fabclm` from any directory without typing `.\bin\fabclm.exe`, add the `b
 - **Zero Hardcoded Secrets:** No tenant IDs, client secrets, or private tokens are stored in the codebase.
 - **Git-Ignored Credentials:** `config/config.json` is strictly git-ignored and will never be tracked or pushed to remote repositories.
 - **Least Privilege:** The Service Principal only requires `Viewer` access to the Capacity Metrics workspace to read monitoring data.
-
----
-
-## License
-
-This project is licensed under the MIT License.
