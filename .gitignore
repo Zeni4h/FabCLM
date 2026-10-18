@@ -15,3 +15,7 @@ config/config.json
 .idea/
 .DS_Store
 Thumbs.db
+
+# Internal guides (local only)
+description.md
+fabric-cu-monitor-guide.md
